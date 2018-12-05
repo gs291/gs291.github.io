@@ -1,0 +1,68 @@
+@media only screen and (max-width: 620px) {
+  #nav-menu {
+    display: inherit;
+  }
+
+  .dropdown-content {
+    display: initial;
+    position: static;
+    text-align: unset;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: initial;
+  }
+
+  .navlist .navitem {
+    float: none;
+    display: block;
+  }
+
+  .navlist .navitem:hover {
+    box-shadow: none;
+    border-radius: initial;
+    background-color: inherit;
+  }
+
+  .navitem a:hover{
+    border-radius: 10px;
+    background-color: rgba(122, 173, 255, 0.2);
+    transition: 0.5s;
+  }
+
+  .dropdown-content .dropdown-item:hover {
+    box-shadow: none;
+  }
+
+  .navbar-container .navlist {
+    position: absolute;
+    padding: 10px;
+    right: -20px;
+    top: 50px;
+    text-transform: uppercase;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2);
+    border-radius: 5px;
+  }
+
+  .collapsed {
+    display: none;
+  }
+
+  .home-content {
+    display: block;
+  }
+
+  .personal-info-container, .main-info-container {
+    max-width: none;
+  }
+
+  .contact-info-personal {
+    flex-direction: column;
+  }
+
+  .title-container h1 {
+    font-size: 32px;
+  }
+}

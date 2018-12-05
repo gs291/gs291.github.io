@@ -7,12 +7,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="/~sanchegr/style.css">
+    <link rel="stylesheet" href="/~sanchegr/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="./index.js" charset="utf-8" defer></script>
+    <script src="/~sanchegr/index.js" charset="utf-8" defer></script>
   </head>
 
   <body>
@@ -22,18 +22,18 @@
     </header>
 
     <nav class="navbar">
-      <div class="navmain"><a class="navitem" href="./">Home</a></div>
+      <div class="navmain"><a class="navitem" href="/~sanchegr">Home</a></div>
       <div class="navbar-container">
     <ul class="navlist collapsed">
         <li id="nav-classes" class="navitem dropdown"><a href="/~sanchegr/classes">Enrolled</a>
             <div class="dropdown-content">
-                <a class="dropdown-item" href="./classes/cs161">CS161</a>
-                <a class="dropdown-item" href="./classes/cs162">CS162</a>
-                <a class="dropdown-item" href="./classes/cs261">CS261</a>
-                <a class="dropdown-item" href="./classes/cs290">CS290</a>
+                <a class="dropdown-item" href="/~sanchegr/classes/cs161">CS161</a>
+                <a class="dropdown-item" href="/~sanchegr/classes/cs162">CS162</a>
+                <a class="dropdown-item" href="/~sanchegr/classes/cs261">CS261</a>
+                <a class="dropdown-item" href="/~sanchegr/classes/cs290">CS290</a>
             </div>
           </li>
-          <li id="nav-contact" class="navitem right"><a href="./contact">Contact</a></li>
+          <li id="nav-contact" class="navitem right"><a href="/~sanchegr/contact">Contact</a></li>
       </ul>
       <div id="nav-menu" class="navitem right hidden"><i class="fa fa-bars" aria-hidden="true"></i></div>
   </div>
@@ -49,7 +49,7 @@
         <aside class="personal-info-container">
           <div class="personal-info-img">
             <div class="contact-info-img">
-              <img src="./media/self-portrait.jpg" alt="Gregory Sanchez">
+              <img src="/~sanchegr/media/self-portrait.jpg" alt="Gregory Sanchez">
             </div>
           </div>
 
@@ -64,7 +64,7 @@
           <div class="info-container">
             <a href="https://www.linkedin.com/in/gregory-sanchez-05b211159" target="_blank">
               <h2>LinkedIn account:
-                <i class="fa fa-linkedin"></i>
+                <i class="fab fa-linkedin-in"></i>
               </h2>
             </a>
           </div>
@@ -90,7 +90,11 @@
         </ul>
       </section>
       <section class="main-info-item">
-        <p class="main-info-title">I am currently in the proces of learning how to incorporate React with this website.</p>
+        <p class="main-info-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>A lacus vestibulum sed arcu non. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Augue ut lectus arcu bibendum at varius vel. Praesent semper feugiat nibh sed. Diam vel quam elementum pulvinar etiam non quam lacus. Viverra accumsan in nisl nisi scelerisque eu. Iaculis at erat pellentesque adipiscing. Aliquam purus sit amet luctus venenatis lectus. Lorem dolor sed viverra ipsum nunc aliquet. Tortor consequat id porta nibh venenatis cras sed felis. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Egestas maecenas pharetra convallis posuere morbi leo.</p>
         </section>
     </div>
       </div>
