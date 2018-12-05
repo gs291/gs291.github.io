@@ -201,6 +201,10 @@ a:hover {
   list-style-type: none;
 }
 
+li {
+  margin: 5px 0px 5px 0px;
+}
+
 /* each class element */
 .class-card {
   margin: 10px;
